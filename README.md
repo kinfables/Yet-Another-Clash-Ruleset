@@ -135,6 +135,3 @@ rules:
 
 ## Reference
 - https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
-
-## LICENSE
-GPL-3.0

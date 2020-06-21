@@ -1,6 +1,6 @@
 # Yet-Another-Clash-Ruleset
 
-https://img.shields.io/github/license/kinfables/Yet-Another-Clash-Ruleset
+[![license](https://img.shields.io/github/license/kinfables/Yet-Another-Clash-Ruleset.svg)](https://github.com/kinfables/Yet-Another-Clash-Ruleset/master/LICENSE)
 
 A classical type of ruleset for Clash (based on lhie1's rules).
 

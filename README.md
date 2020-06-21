@@ -1,5 +1,9 @@
 # Yet-Another-Clash-Ruleset
+
+https://img.shields.io/github/license/kinfables/Yet-Another-Clash-Ruleset
+
 A classical type of ruleset for Clash (based on lhie1's rules).
+
 ## How to use
 
 <details>

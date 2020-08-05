@@ -47,6 +47,12 @@ rule-providers:
     path: ./providers/rules/spotify.yaml
     url: https://raw.githubusercontent.com/kinfables/Yet-Another-Clash-Ruleset/master/ruleset/spotify.yaml
     interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    path: ./providers/rules/youtube.yaml
+    url: https://raw.githubusercontent.com/kinfables/Yet-Another-Clash-Ruleset/master/ruleset/youtube.yaml
+    interval: 86400
   Telegram:
     type: http
     behavior: classical
@@ -108,13 +114,14 @@ rule-providers:
     url: https://raw.githubusercontent.com/kinfables/Yet-Another-Clash-Ruleset/master/ruleset/lan.yaml
     interval: 86400
 
-rules:
+rules: # The name of the proxy group is subject to the actual situation. The following is for reference only.
   - RULE-SET,AdBlock,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,AsianTV,AsianTV
   - RULE-SET,GlobalTV,GlobalTV
   - RULE-SET,Netflix,Netflix
   - RULE-SET,Spotify,Spotify
+  - RULE-SET,YouTube,YouTube
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Steam,Steam
   - RULE-SET,Speedtest,Speedtest
